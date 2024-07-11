@@ -1,0 +1,14 @@
+{
+  "name": "unit-testing-project",
+  "version": "1.0.0",
+  "description": "This is unit testing project for a calculator application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Unit-Testing-Team",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
+}
