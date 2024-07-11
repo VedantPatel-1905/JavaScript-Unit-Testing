@@ -10,10 +10,10 @@ do {
     a = readline.question("Enter first number: ");
         
     if (calculator_logic.numberValidator(a)) {
-        break;
+        console.log("Invalid Number");
     }
     else {
-        console.log("Invalid Number");
+        break;
     }
 
 } while (true);
@@ -23,11 +23,11 @@ do {
     b = readline.question("Enter second number: ");
 
     if (calculator_logic.numberValidator(b)) {
-        break;
+        console.log("Invalid Number");
     }
     else
-    {
-        console.log("Invalid Number");
+        {
+            break;
     }
 } while (true);
 

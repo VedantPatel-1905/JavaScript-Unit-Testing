@@ -2,7 +2,7 @@
   "name": "unit-testing-project",
   "version": "1.0.0",
   "description": "This is unit testing project for a calculator application",
-  "main": "index.js",
+  "main": "calculator_app.js",
   "scripts": {
     "test": "mocha test"
   },
