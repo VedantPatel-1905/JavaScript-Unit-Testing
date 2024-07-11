@@ -18,9 +18,9 @@ function divide(a, b){
 // constant for validating the numbers
 const numberValidator = (a, b) => {
     if (isNaN(a) || isNaN(b)) {
-        return false
+        return true
     }
-    return true
+    return false
 }
 
 // importing the function
