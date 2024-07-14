@@ -1,0 +1,14 @@
+{
+  "name": "unit-testing-inclass",
+  "version": "1.0.0",
+  "description": "This is in-class demonstration for unit testing with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Unit-Testing-Team",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
+}
