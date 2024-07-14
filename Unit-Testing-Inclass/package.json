@@ -4,7 +4,7 @@
   "description": "This is in-class demonstration for unit testing with mocha",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "author": "Unit-Testing-Team",
   "license": "ISC",
