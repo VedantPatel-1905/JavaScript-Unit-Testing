@@ -9,7 +9,7 @@ var a, b, operation;
 do {
     a = readline.question("Enter first number: ");
         
-    if (calculator_logic.numberValidator(a)) {
+    if (!calculator_logic.numberValidator(a,1)) {
         console.log("Invalid Number");
     }
     else {
@@ -22,12 +22,11 @@ do {
 do {
     b = readline.question("Enter second number: ");
 
-    if (calculator_logic.numberValidator(b)) {
+    if (!calculator_logic.numberValidator(b,1)) {
         console.log("Invalid Number");
     }
-    else
-        {
-            break;
+    else{
+        break;
     }
 } while (true);
 
