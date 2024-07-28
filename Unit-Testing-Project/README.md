@@ -1,27 +1,27 @@
 # Welcome to Calculator Unit Testing with Mocha
 
-### 1. Initializing the Project
+### Initializing the Project
     npm init
     
-### 2. Package installation
+### Package installation
     npm i --save-dev mocha
 
-### 3. Code and Application
-    Create Demo_app folder which will hold files for functionality of our calculator
-    Create test folder which will hold test files for the application
+### Code and Application
+1. Create Demo_app folder 
+    * This folder will hold files for functionality of our calculator
+2. Create test folder 
+    * This folder which will hold test files for the application
 
-### 4. Running the test file
-    Open package.json and under scripts add test : "mocha test"
-    On terminal enter the following command:
-    a. Calculator Application
-        To run the application: npm run  calculator_app
+### Running the test file
+Open package.json and under scripts add test : "mocha test" 
 
-    b. Unit Testing
-        To run the test case: npm run test
+On terminal enter the following command:
 
-### 5. Debugging
-    Output from the test file will show any errors you might have in you application
-    Fix the errors until everything is correct
+1. Calculator Application
+    To run the application: ```npm run  calculator_app```
 
+2. Unit Testing
+    To run the test case: ```npm run test```
 
-
+### Debugging
+Output from the test file will show any errors you might have in you application. Fix the errors until everything is correct
